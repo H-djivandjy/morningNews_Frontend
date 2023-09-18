@@ -11,7 +11,7 @@ function Home() {
 
   const [articlesData, setArticlesData] = useState([]);
   const [topArticle, setTopArticle] = useState({});
-
+//---
   useEffect(() => {
     fetch('https://morning-news-backend-rosy.vercel.app/articles')
       .then(response => response.json())
